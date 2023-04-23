@@ -1,0 +1,168 @@
+body{
+    background-image: url("Zam.jpg");
+    background-size: 100%;
+     text-align: center;
+}
+h2{
+    text-align: center;
+    color: #0004ff;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+   color: black;
+    border: 2px solid red;
+    background-color: rgba(125, 249, 255, 0.55);
+}
+strong{
+    color: red;
+}
+i{
+    color:darkgreen;
+}
+#gary {
+    float: left;
+    background-image: url("Pot.jpg");
+    background-size: 100%;
+}
+#malfoy{
+    float: right;
+    background-image: url("MalDrak.jpg");
+    background-size: 100%;
+}
+button {
+   display: inline-block;
+    border: 5px solid #80001e;
+   position: relative;
+    font-size: 25px;
+    color: #ffd500;
+}
+#butk{
+      background-image: url("Germiona.jpg" );
+    width: 200px;
+    height: 100px;
+    background-size: 100%;
+}
+#butn{
+       background-image: url("Hagrit.jpg" );
+    width: 200px;
+    height: 100px;
+    background-size: 100%;
+}
+#butb{
+        background-image: url("Viz.jpg" );
+    width: 200px;
+    height: 100px;
+    background-size: 100%;
+}
+img{
+    display: inline-block;
+    margin-top: 20px;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: navy;
+}
+div{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    border: 5px solid #ffd500;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+#t1{
+    display: inline-block;
+    position: relative;
+    background-image: url("garnapad.jpg");
+    background-size: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    animation: ret 10s infinite;
+}
+@keyframes ret {
+   0%{
+        transform: skew(0deg);
+    }
+  25%{
+      transform: skew(30deg);
+  }
+    50%{
+        transform: skew(0deg);
+    }
+    75%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+#t2{
+     display: inline-block;
+    position: relative;
+    background-image: url("Damboldor.jpg");
+    background-size: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    animation: rel 10s infinite;
+}
+@keyframes rel {
+   0%{
+  transform: rotateX(0deg);
+}
+    15%{
+        transform: rotateX(25deg);
+    }
+    30%{
+        transform: rotateX(50deg);
+    }
+   55%{
+       transform: rotateY(25deg);
+   }
+    70%{
+        transform: rotateY(50deg);
+    }
+    85%{
+        transform: rotateY(25deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+#t3{
+     display: inline-block;
+    position: relative;
+    background-image: url("MalDR.jpg");
+    background-size: 100%;
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    animation:  rem 10s infinite;
+}
+@keyframes rem {
+    0%{
+        scale: 1;
+    }
+    25%{
+        scale: 1.1;
+    }
+    50%{
+        scale: 1.2;
+    }
+    75%{
+        scale: 1.1;
+    }
+    100%{
+        scale: 1;
+    }
+}
+#out{
+    border: 5px solid black;
+    background-color: rgba(125, 249, 255, 0.56);
+    background-size: 100%;
+}
+
